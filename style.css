@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* navbar */
+.navbar{
+    display: flex;
+    background-color: #38423B;
+    justify-content: space-around;
+    color: #f7f0f5;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.logo{
+    padding: 1rem;
+    color: #000;
+}
+.primary-color{
+    color: #75B605;
+}
+
+.nav{
+    list-style: none;
+    display: flex;
+    padding: 1em;
+    
+}
+.nav li a{
+    text-decoration: none;
+    padding: 1rem;
+    color: #f7f0f5;
+    text-align: center;
+    
+
+}
+nav li a:hover{
+    border-bottom: 5px solid #000;
+    color: #75B605;
+    transition: ease-in-out 1s;
+    font-size: 1rem;
+}
+.font-awesome{
+    color: black;
+    padding: 1rem;   
+}
+.font-awesome a{
+    font-size: 1rem;
+    padding: 0.75rem;
+    color: #f7f0f5;
+    background-color: black;
+    border-radius: 20px;
+}
+.font-awesome a:hover{
+    background-color:#75B605;
+}
+
+/* showcase */
+
+.showcase{
+    background: url(./image/galaxy-night-landscape.jpg) no-repeat center center/cover;
+    height: 100vh;
+}
+.showcase .showcase-content{
+    color: #f7f0f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    
+    height: 100%;
+    position: absolute;  
+    top: 60px;
+    left: 30px;
+    background: rgba(0, 0, 0, 0.4);
+}
+ 
+
+.showcase-content h2{
+    font-size: 3rem;
+    padding: 1rem;
+}
+.showcase-content p{
+    line-height: 1.4em;
+    font-size:1rem;
+}
+
+
+/* .btn{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    padding: 1rem;
+    width: 20%;
+    color: #f7f0f5;
+    border: 1px solid #75B605;
+    text-align: center;
+
+} */
+
+.btn{
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    color: #f7f0f5;
+    width: 150px;
+    border: 1px solid #75B605;
+    margin-left:40% ;
+    margin-top: 1rem;
+    border-radius: 15px;
+    font-weight: 700;
+
+}
+
+.btn:hover{
+    background: #75B605;
+    transition: ease-in-out 1s;
+}
+
+
+/* section- intro */
+#intro{
+    /* height: 100vh; */
+    padding: 2rem;
+}
+
+#intro h2{
+    font-size: 3rem;
+    /* padding: 1rem; */
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+
+}
+.border{
+    display: block;
+    border-bottom: 6px solid #75B605 ;
+    text-align: center;
+    width: 25%;
+    margin: auto;
+
+}
+
+.intro-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top:2.5rem ;
+
+
+}
+.intro-container .img-width{
+    width: 40%;
+    /* height: 500px; */
+}
+
+.intro-container p{
+    width: 50%;
+    padding-left: 2rem;
+    font-size: 1.2rem;
+    line-height: 1.5em;
+    margin-top: 1.5rem;
+
+}
+
+/* importance */
+#important{
+    background-color:gray;
+    /* padding: 1.5rem; */ 
+}
+
+
+.imp-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    width: 20%;
+    background-color: white;
+    text-align: center;
+    margin: 20px;
+    border-radius: 20px;
+
+}
+.card:hover{
+    width: 22%;
+}
+
+.image img{
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+.text{
+    text-align: center; 
+    line-height: 1.2em;
+    margin-bottom: 1rem;
+}
+.card button{
+    border: #75B605 1px solid;
+    padding: 12px 16px;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    font-weight: 800;
+    border-radius: 15px;
+}
+.card button:hover{
+    background-color: #75B605;
+    transition: ease-in-out 1s;
+}
+.card-btn{
+    text-decoration: none;
+    color: #000;
+}
+
+/* footer */
+footer{
+    background-color: rgb(240, 250, 195);
+    color: #000;
+}
+.logo img{
+    width: 250px;
+}
+
+footer .footer{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    padding: 3rem;
+}
+.box h2{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+.box h3{
+    font-size: 1rem;
+    line-height: 1.2em;
+    padding: 6px;
+}
+.box h3:hover{
+    color: #75B605;
+}
